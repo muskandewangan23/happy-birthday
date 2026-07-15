@@ -4,7 +4,7 @@ A small interactive birthday website made with lots of love, memories, and a lit
 
 ## 🌐 Live Website
 
-👉 https://muskandewangan23.github.io/happy-birthday/
+👉 **[Open the Birthday Website ❤️](https://muskandewangan23.github.io/happy-birthday/)**
 
 ## ✨ Features
 
