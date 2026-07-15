@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday, Arya ❤️</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <main>
+
+        <!-- ===================================== -->
+        <!-- START SCREEN -->
+        <!-- ===================================== -->
+
+        <section id="start-screen">
+
+            <div class="start-container">
+
+                <h1>
+                    Happy Birthday ❤️
+                </h1>
+
+                <p>
+                    Every memory has a beginning.
+                </p>
+
+                <button id="play-btn">
+
+                    ▶ Begin the Journey
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- LOADER SCREEN -->
+        <!-- ===================================== -->
+
+        <section id="loader-screen">
+
+            <div class="loader-container">
+
+                <!-- First Line -->
+                <div class="intro-line">
+
+                    <p id="typing-text"></p>
+
+                    <span id="cursor">|</span>
+
+                </div>
+
+                <!-- Computer System Messages -->
+                <div id="system-log">
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- LANDING SCREEN -->
+        <!-- ===================================== -->
+
+        <section id="landing-screen">
+
+            <section class="hero hidden">
+
+                <h1>
+                    Happy Birthday,
+                    <span>Arya ❤️</span>
+                </h1>
+
+                <p class="tagline">
+                    Every page holds a little piece of us.
+                </p>
+
+                <button id="begin-btn">
+                    Begin →
+                </button>
+
+            </section>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- FUTURE SECTIONS -->
+        <!-- ===================================== -->
+
+        <section id="timeline-section">
+
+            <div class="memory-card">
+
+                <h2 id="memory-title">
+                    The Beginning
+                </h2>
+
+                <p class="memory-text" id="memory-text">
+                    Sometimes the best people enter our lives
+                    without making any noise.
+
+                    <br><br>
+
+                    Little did I know,
+                    this would become one of
+                    my favourite chapters.
+                </p>
+
+                <div class="memory-photo">
+
+                    <img id="memory-image" src="" alt="Memory">
+
+                </div>
+
+                <div class="memory-buttons">
+
+                    <button id="prev-memory-btn">
+                        ← Previous
+                    </button>
+
+                    <button id="next-memory-btn">
+                        Next →
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- GALLERY SECTION -->
+        <!-- ===================================== -->
+
+        <section id="gallery-section">
+
+            <div class="gallery-container">
+
+                <h2>
+                    More Than Memories
+                </h2>
+
+                <p class="gallery-subtitle">
+                    Some moments never needed words.<br>
+                    They were beautiful just as they were.
+                </p>
+
+                <!-- Automatic Slideshow -->
+
+                <div id="gallery-slideshow">
+
+                    <img
+                        id="gallery-image"
+                        src=""
+                        alt="Gallery Memory">
+
+                </div>
+
+                <!-- Final Grid -->
+
+                <div id="gallery-grid">
+
+                    <img src="assets/images/gallery/1.jpg">
+                    <img src="assets/images/gallery/2.jpeg">
+                    <img src="assets/images/gallery/3.png">
+                    <img src="assets/images/gallery/4.jpeg">
+                    <img src="assets/images/gallery/5.jpg">
+                    <img src="assets/images/gallery/6.jpeg">
+                    <img src="assets/images/gallery/7.jpeg">
+                    <img src="assets/images/gallery/8.jpeg">
+                    <img src="assets/images/gallery/9.jpeg">
+                    <img src="assets/images/gallery/10.jpeg">
+                    <img src="assets/images/gallery/11.jpeg">
+                    <img src="assets/images/gallery/12.jpeg">
+
+                </div>
+
+                <button id="gallery-next-btn">
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- LETTER SECTION -->
+        <!-- ===================================== -->
+
+        <section id="letter-section">
+
+            <div class="letter-container">
+
+                <h2>
+                    A Letter For You
+                </h2>
+
+                <p class="letter-subtitle">
+                    There were always a few things
+                    I wanted to tell you.
+                </p>
+
+                <div class="letter-card">
+
+                    <p class="letter-greeting">
+                        Dear Arya,
+                    </p>
+
+                    <div id="letter-content">
+
+                        <!-- Paragraphs will be added using JavaScript -->
+
+                    </div>
+
+                    <p class="letter-sign">
+
+                        — Muskan ❤️
+
+                    </p>
+
+                </div>
+
+                <p id="letter-end">
+
+                    Thank you for reading my heart. ❤️
+
+                </p>
+
+                <button id="letter-next-btn" style="display:none;">
+
+                    Continue →
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="secret-section">
+
+            <div class="secret-container">
+
+                <p class="secret-small">
+                    One Last Thing...
+                </p>
+
+                <h2 id="secret-text">
+
+                </h2>
+
+                <button id="secret-next-btn">
+                    Continue →
+                </button>
+
+            </div>
+
+        </section>
+
+        <section id="ending-section">
+
+            <div class="ending-container">
+
+                <h1>
+                    Happy Birthday,<br>
+                    Arya ❤️
+                </h1>
+
+                <p class="ending-subtitle">
+
+                    Thank you for being part of my story.
+
+                </p>
+
+                <p class="ending-small">
+
+                    Made with lots of love,
+                    countless memories,
+                    and a little bit of JavaScript.
+
+                </p>
+
+                <button id="restart-btn">
+
+                    Replay Memories ↺
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- FUN TRANSITION -->
+        <!-- ===================================== -->
+
+        <section id="fun-section">
+
+            <div class="fun-container">
+
+                <h1>
+                    Emotional ho gaya??? 🥹
+                </h1>
+
+                <h2>
+                    Mere rehte kaise? 😂
+                </h2>
+
+                <p>
+                    Ab bahut ho gaya senti mode...
+                </p>
+
+                <p class="fun-last">
+                    Ready for the real chaos? 😈
+                </p>
+
+                <div class="down-arrow">
+                    👇
+                </div>
+
+                <button id="fun-btn">
+
+                    😂 Let's Go
+
+                </button>
+
+            </div>
+
+        </section>
+
+        <!-- ===================================== -->
+        <!-- VIDEO SECTION -->
+        <!-- ===================================== -->
+
+        <section id="video-section">
+
+            <video
+                id="birthday-video"
+                controls>
+
+                <source
+                    src="assets/video/birthday.mp4"
+                    type="video/mp4">
+
+            </video>
+
+        </section>
+
+    </main>
+
+    <audio id="bg-music" loop>
+
+        <source
+            src="assets/audio/music.mpeg"
+            type="audio/mpeg">
+
+    </audio>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+    
+
+</body>
+
+</html>
